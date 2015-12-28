@@ -1,0 +1,15 @@
+#summary Escopo preliminar.
+#labels Featured
+
+= Introdução =
+
+O objetivo deste trabalho consiste desenvolver um Sistema de Gerenciamento de Projetos para times de desenvolvimento usando metodologias ágeis.
+
+
+= Details =
+
+O objetivo consiste em:
+  * Criar um modelo Web para gestão de projetos de software;
+  * Priorizar a modelagem *ágil* de acordo com metodologias como _XP_ ou _Scrum_;
+  * Permitir o uso de uma ferramenta para cadastro do time, funcionalidades, estórias, atividades, impedimentos e riscos;
+  * Permitir o acompanhamento de projetos.

@@ -1,0 +1,43 @@
+#summary Escrevendo boas user stories / estórias.
+#labels Featured,Phase-Requirements
+
+= Introdução =
+
+Como bem sabemos, um dos princípios dos processos Ágeis é satisfazer o cliente, agregando valor ao produto final. De certa forma, para que essa tarefa possa ser realizada com sucesso, é preciso saber exatamente as necessidades desse cliente.
+Felizmente com algumas estórias e feedbacks já é possível ter uma boa idéia de onde devemos chegar. Mas é importante ressaltar que a “qualidade” das estórias influencia diretamente em todo o processo.
+
+= Aspectos =
+
+As estórias apresentam três aspectos críticos, os quais devem ser obrigatoriamente lembrados no momento de sua criação. São eles: *Cards*, *Conversation*, *Confirmation*. Ou 3C.
+  * Cards — Estórias são escritas em cartões ou post-its. Na verdade o que importa aqui é o tamanho! A sugestão dos cartões e post-its é pelo fato de serem pequenos. E cartões pequenos naturalmente forçam estórias pequenas, de duas a três linhas no máximo.
+  * Conversation — A estória escrita no cartão serve como um lembrete, uma maneira de identificar uma funcionalidade que foi conversada e discutida entre os clientes e desenvolvedores.
+  * Confirmation — Depois das funcionalidades terem sido discutidas e escritas nos cartões, o cliente define (implícita ou explicitamente) uma maneira de validar esse pedido. Geralmente essa confirmação é feita com testes de aceitação.
+
+= Atributos =
+
+Para criar boas estórias, ainda devemos focar em seis atributos: _INVEST_
+  * Independent — Estórias devem ser independentes uma das outras. Dependências entre estórias geram problemas de planejamento e priorização, sem falar que dificultam bastante nas estimativas.
+  * Negotiable — Estórias não são contratos. Como dito anteriomente, estórias são lembretes para funcionalidades discutidas (negociadas) entre o cliente e os desenvolvedores.
+  * Valuable — Na mesma linha dos processos Ágeis, como dito no início deste post. Estórias devem agregar valor para o cliente.
+  * Estimatable — Os desenvolvedores devem ser capazes de estimar o tamanhos das estórias. Geralmente estórias incompletas ou muito grandes (complexas) são difíceis de serem estimadas. Portanto invista em discussões e quebre em estórias menores quando necessário.
+  * Small — “Tamanho é documento”. Essa regra é valida para a criação de boas estórias. Como dito anteriormente, estórias grandes dificultam as estimativas. Bem como estórias muito pequenas. Quebre ou agrupe dependendo do caso.
+  * Testable — Estórias devem ser possíveis de serem testadas. Um teste que é executado com sucesso, prova que a estória foi desenvolvida com sucesso, atingindo as necessidades do cliente. Estórias que não podem ser testadas geralmente especificam requisitos não-funcionais do software, e não uma funcionalidade diretamente.
+
+= Conselhos =
+
+Além do 3C e INVEST, vejamos mais alguns pontos. Foque as estórias no “O que” e não no “Porque”. Estórias não devem apresentar termos técnicos e nem os mínimos detalhes das funcionalidades. Lembre-se, elas são apenas lembretes do que foi discutido anteriomente.
+
+Quando possível aplique o “Quem”, “O que” e “Como”. Por exemplo: “O visitante pode se cadastrar no portal pelo formulário”, “O visitante confirma seu cadastro por email”, “O usuário é capaz de salvar seus favoritos”. Mas cuidado com o detalhismo!
+
+Use e abuse de metáforas. Você vai perceber como fica fácil de explicar (ou entender) suas idéias quando você consegue comparar com algo concreto, do dia-a-dia das pessoas. Sem falar que assim você consegue definir um vocabulário comum com o cliente.
+
+Incentive o cliente a escrever as estórias. Assim você acaba forçando-o a explicar com clareza as suas necessidades e muitas vezes ajuda também a esclarecer possíveis dúvidas.
+Para finalizar, abaixo um trecho retirado de [1], que explica quase tudo em um único parágrafo:
+
+_The story is the unit of functionality in an XP project. We demonstate progress by delivering tested, integrated code that implements a story. A story should be understandable to customers and developers, testable, valuable to the customer, and small enough so that the programmers can build half a dozen in an iteration._
+
+= Referências =
+
+  * 1. Planning Extreme Programming. Kent Beck, Martin Fowler
+  * 2. Essential XP: Card, Conversation, Confirmation. Ron Jeffries
+  * 3. User Stories Applied: For Agile Software Development. Mike Cohn
